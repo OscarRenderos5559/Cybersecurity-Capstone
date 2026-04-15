@@ -1,0 +1,82 @@
+[
+  {
+    "Method": "Supervised-only",
+    "TP": 233,
+    "FP": 209,
+    "TN": 4291,
+    "FN": 1222,
+    "TPR": 0.1601,
+    "FPR": 0.0464,
+    "Precision": 0.5271
+  },
+  {
+    "Method": "AE-only",
+    "TP": 364,
+    "FP": 223,
+    "TN": 4277,
+    "FN": 1091,
+    "TPR": 0.2502,
+    "FPR": 0.0496,
+    "Precision": 0.6201
+  },
+  {
+    "Method": "KMeans-only",
+    "TP": 140,
+    "FP": 252,
+    "TN": 4248,
+    "FN": 1315,
+    "TPR": 0.0962,
+    "FPR": 0.056,
+    "Precision": 0.3571
+  },
+  {
+    "Method": "OR-Fused",
+    "TP": 621,
+    "FP": 578,
+    "TN": 3922,
+    "FN": 834,
+    "TPR": 0.4268,
+    "FPR": 0.1284,
+    "Precision": 0.5179
+  },
+  {
+    "Method": "OR  (\u22651 detector)",
+    "TP": 621,
+    "FP": 578,
+    "TN": 3922,
+    "FN": 834,
+    "TPR": 0.4268,
+    "FPR": 0.1284,
+    "Precision": 0.5179
+  },
+  {
+    "Method": "Majority (\u22652)",
+    "TP": 106,
+    "FP": 103,
+    "TN": 4397,
+    "FN": 1349,
+    "TPR": 0.0729,
+    "FPR": 0.0229,
+    "Precision": 0.5072
+  },
+  {
+    "Method": "AND (\u22653 unanimous)",
+    "TP": 10,
+    "FP": 3,
+    "TN": 4497,
+    "FN": 1445,
+    "TPR": 0.0069,
+    "FPR": 0.0007,
+    "Precision": 0.7692
+  },
+  {
+    "Method": "Weighted-sum (original)",
+    "TP": 324,
+    "FP": 224,
+    "TN": 4276,
+    "FN": 1131,
+    "TPR": 0.2227,
+    "FPR": 0.0498,
+    "Precision": 0.5912
+  }
+]
